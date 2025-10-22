@@ -12,7 +12,7 @@
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
   <!-- TODO: List all authors -->
-  <meta name="author" content="Xu He, Xiaolin Meng*, Lingfei Mo*, Youdong Zhang, Fangwen Yu, Jinnan Liu">
+  <meta name="author" content="Xu He, Xiaolin Meng*, Lingfei Mo*, Youdong Zhang, Fangwen Yu, Jingnan Liu">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
@@ -283,20 +283,20 @@
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="./pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+<!--                    &lt;!&ndash; TODO: Add your supplementary material PDF or remove this section &ndash;&gt;-->
+<!--                    <span class="link-block">-->
+<!--                      <a href="./pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                      class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        <i class="fas fa-file-pdf"></i>-->
+<!--                      </span>-->
+<!--                      <span>Supplementary</span>-->
+<!--                    </a>-->
+<!--                  </span>-->
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/BINUCOE/Awesome-Brain-inspired-Navigation" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -307,7 +307,7 @@
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2510.17530" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -332,7 +332,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Intelligent navigation is essential for unmanned systems. Yet nowadays navigation technologies still fall short of animals’ innate navigation prowess, characterized by continuous, efficient, adaptive, low-power navigating across complex terrains, despite technological advancements. Neuroscience’s half-century exploration has revealed the brain’s innate “Global Positioning System (GPS),” instigating research into Brain-Inspired Navigation (BIN). BIN, is a cutting-edge navigation technology, that bridges disciplines but lacks a cohesive guide for its interdisciplinary study. In this paper, we offer a comprehensive BIN review, mapping its neural basis, computational foundations, current progress, and implementation conditions, providing a general framework for researchers alongside forward-looking recommendations for future development in the domain.
           </p>
         </div>
       </div>
@@ -341,45 +341,630 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="./images/fig1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          Framework for developing a BIN system.
-        </h2>
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">INTRODUCTION</h2>
+              <ul>
+                  <li>Traditional navigation technologies, despite decades of progress, still suffer from high power consumption, poor adaptability, and weak generalization, especially in unstructured environments.</li>
+                  <li>In contrast, animals have innate navigation intelligence that allows them to navigate efficiently and stably in complex environments, particularly in migratory species.</li>
+                  <li>After years of research, neuroscientists have found that this intelligence comes from the brain’s capabilities of spatial cognition and cognitive map encoding.</li>
+                  <li>Neuroscientists have deciphered the brain’s “GPS” and revealed the essence of spatial cognition, propelling the emergence of Brain-Inspired Navigation (BIN).</li>
+              </ul>
+              <p>Against this backdrop, we provide a comprehensive review of BIN, an emerging scientific frontier, covering its neural basis, computational foundations, current advances, implementation conditions, system-level framework and forward-looking outlook.</p>
+              <img src="./images/F1.svg" alt="Dataset Overview" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+          </div>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="./images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="./images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="./images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">NEUROSCIENTIFIC FOUNDATION</h2>
+          <ul>
+            <li><strong>The Hippocampal-Entorhinal System of Mammals</strong>
+              <ul>
+                <li>The entorhinal cortex and hippocampus are the core navigation-related regions in the mammalian brain. The complex interactions between them form the neural circuits that underpin the brain’s navigation intelligence. (See Appendix A)</li>
+              </ul>
+              <img src="./images/FS1.svg" alt="The hippocampal-entorhinal system of mammals" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+              <p class="image-caption">Fig. S1. The hippocampal-entorhinal system of mammals. (a) Schematic diagram of the hippocampal-entorhinal system structure. Credit: Medical dictionary: https://medicine.en-academic.com/3923. (b) The neural circuit of the hippocampal-entorhinal system, developed from [6]-[8].</p>
+            </li>
+
+            <li><strong>From Cognitive Map to Predictive Map</strong>
+              <ul>
+                <li>From Tolman’s "cognitive map" hypothesis to the recent "predictive map" theory, decades of scientific research have progressively uncovered the fundamental principles of brain’s spatial cognition, laying the theoretical foundation for BIN.</li>
+              </ul>
+              <img src="./images/F2.svg" alt="From cognitive map to predictive map" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+              <p class="image-caption">Fig. 2. From cognitive map to predictive map.</p>
+            </li>
+
+            <li><strong>PNT System in Mammalian Brain</strong>
+              <ul>
+                <li>In the brain, heterogeneous navigation cells, such as Place Cells (PCs), Grid Cells (GCs), and Head Direction Cells (HDCs), each perform their own functions and collaborate together to form the brain’s PNT system, enabling comprehensive perception and encoding of spatial position, time, and speed, etc.</li>
+                <li>After capturing endogenous and exogenous cues, the brain can use its Path Integration (PI) capability to build spatial experience, via a complex neural network built by the interaction of different navigation cells.</li>
+                <li>Beyond the "big three," i.e., PCs, GCs and HDCs, the brain also houses other functionally diverse navigation-related cells that play important roles in spatial memory and cognitive navigation, offering more potential directions for BIN research. (See Appendix A)</li>
+              </ul>
+              <img src="./images/F3.svg" alt="Interaction logic among heterogeneous navigation cells during PI" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+              <p class="image-caption">Fig. 3. Interaction logic among heterogeneous navigation cells during PI.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">COMPUTATIONAL FOUNDATIONS</h2>
+          <ul class="spaced-list">
+            <li>BIN research requires novel modeling approaches to simulate the brain's navigation neural mechanisms (at the neuron/circuity/system-levels) to integrate brain-inspired spatial cognition capabilities into the BIN system.</li>
+
+            <li>Computational foundations are crucial for BIN research, with a focus on Continuous Attractor Neural Networks (CANNs), Deep Reinforcement Learning (DRL), Spiking Neural Networks (SNNs), and Deep Learning (DL) to emulate the properties of clustered neuronal firing.</li>
+
+            <li>There are also single-cell models, including Oscillatory Interference Models (OIMs) and Self-Organizing Models (SOMs), but they are not mainstream methods in current BIN research.</li>
+          </ul>
+
+          <img src="./images/F4.svg" alt="Illustrations for key computational models" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+          <p class="image-caption">Fig. 4. Illustrations for key computational models.</p>
+
+          <div class="table-container">
+            <p class="table-caption"><strong>Table S1.</strong> Summary of mentioned computational methods (Appendix B)</p>
+            <table class="table is-bordered is-striped is-fullwidth centered-table">
+              <thead>
+                <tr>
+                  <th style="text-align: center;">Models</th>
+                  <th style="text-align: center;">Characteristics</th>
+                  <th style="text-align: center;">Status Quo</th>
+                  <th style="text-align: center;">Limitations</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>CANN</strong></td>
+                  <td style="vertical-align: middle;">CANN emulates neural populations' firing patterns, encapsulating cerebral encoding, storage, and processing, etc. exhibiting robust neurodynamic properties without training.<br>It accurately simulates diverse navigational cell representations in both 2D and 3D spaces, including multi-scale encodings.</td>
+                  <td style="vertical-align: middle;">It has been widely applied in the modeling of PCs, GCs, HDCs, BCs, SCs, TCs, etc.<br>It has a variety of applications in brain-inspired SLAM tasks, like RatSLAM, etc.</td>
+                  <td style="vertical-align: middle;">CANN's parameters are manually set to fixed values, lacking plasticity.<br>It is sensitive to disruptive noise and requires precise wiring.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>SNN</strong></td>
+                  <td style="vertical-align: middle;">More closely resembling the actual biological neural structure, SNNs have significant capabilities in processing spatiotemporal patterns, along with the advantage of low power consumption, leading to the development of neuromorphic engineering.</td>
+                  <td style="vertical-align: middle;">It is in the exploratory stage and can be applicable for modeling GCs, PCs, HDCs, BCs, etc.<br>Its evolved neuromorphic computing technology has broad prospects and potential.</td>
+                  <td style="vertical-align: middle;">SNNs face the challenges like difficult training and uncertain performance.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>DL</strong></td>
+                  <td style="vertical-align: middle;">Trained from an optimization perspective using gradient strategies, it can simulate the firing patterns of GCs, BCs, HDCs, stripe cells, etc.</td>
+                  <td style="vertical-align: middle;">It has been proven to simulate the pattern of navigation cells from an optimization standpoint based on gradient strategy.</td>
+                  <td style="vertical-align: middle;">DL models rely on huge labeled training data, lacking neurodynamic properties and biological plausibility.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>DRL</strong></td>
+                  <td style="vertical-align: middle;">It merges the strengths of DL's hierarchical information processing and RL's multi-step decision-making.<br>It aligns closely with the goal-oriented navigation strategies observed in animals, guided by the reward mechanism.</td>
+                  <td style="vertical-align: middle;">Despite significant theoretical advances, translating these theories into practice, especially in real-world navigation tasks, still poses challenges.</td>
+                  <td style="vertical-align: middle;">DRL faces the challenges of complex network structure, high training complexity, and the difficulties in designing the reward functions.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>OIM</strong></td>
+                  <td style="vertical-align: middle;">The single-cell level navigation model simulates that a neuron's input current is composed of multiple coherent patterns, each with a phase difference of 60°.<br>It can explain the stable and regular firing patterns of GCs and generate GC firing fields with scalable dimensions and adjustable phases by parameter tuning.</td>
+                  <td style="vertical-align: middle;">It is primarily used for GC modeling. Recently been proven to be applicable for modeling HDCs, strip cells, and PCs.<br>Most related studies remain experimental, and have not yet been realized in navigation tasks.</td>
+                  <td style="vertical-align: middle;">There is debate over the physiological evidence supporting and exists inherent theoretical flaws.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center; vertical-align: middle;"><strong>SOM</strong></td>
+                  <td style="vertical-align: middle;">The single-cell level navigation model creates grid firing patterns through single-cell frequency self-organization and competitive learning at the network level. It is capable of simulating the development of GCs in non-Euclidean spaces. Multi-layered SOM can account for the variations in the distribution of GCs across different layers of the MEC.</td>
+                  <td style="vertical-align: middle;">Primarily used for GC modeling. The competitive learning mechanism can also be applied to PC modeling.<br>Researchers are still exploring variations of SOM to elucidate the generation mechanism of GC firing patterns.</td>
+                  <td style="vertical-align: middle;">It is not a universal method for modeling different navigation cells.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul class="spaced-list">
+            <li>As a field of interdisciplinary research, should the design of BIN algorithms and systems simulate the brain's spatial cognition and navigational functions from the level of neural behavior or an abstract functional level? This may involve the debate between connectionism and behaviorism, a question that currently lacks a definitive answer and is worth considering.</li>
+
+            <li>Within the same species, there is a distinction between pure navigation cells and conjunctive modulation navigation cells (such as pure GCs and conjunctive GCs). Most navigation cells exhibit significant representation differences in 2D and 3D spaces. Furthermore, the functionality of navigation cells varies across different species. The discovery by neuroscience of the multidimensional characteristic differences of navigation cells is worth discussing in terms of its potential to assist in BIN research.</li>
+
+            <li>In our perspective, the "remapping" of navigation cells, such as PCs' remapping characteristics tied to cognitive map encoding, is a critical spatial cognitive feature. Limited studies, like Tolman-Eichenbaum Machine (TEM) by Burgess's team, have simulated remapping. There is a dearth of innovation in navigation tasks leveraging remapping characteristics of navigation cells in nowadays BIN.</li>
+
+            <li>Despite the fact that some scholars have proposed the theory of memory indexing, the neural mechanisms by which the brain parses environmental semantics to form spatial memory and experience are currently not well understood. This process is crucial for the animal brain to form compressed representations of space and construct the abstract environmental cognitive map. Spatial memory, spatial experience, and spatial awareness may become significant topics in BIN. Thus, the study of their neural basis is extremely important.</li>
+
+            <li>The biological brain's use of navigation cells and neural circuits to achieve dynamic and efficient information filtering is a neural mechanism that is very much worth exploring. It forms the basis for animals to conduct adaptive and efficient navigation. We speculate that this may be one of the key elements of the innate superior navigation abilities of living organisms and could also be one of the significant reasons why unmanned systems with high-precision perception capabilities still fall short of the navigational prowess of biological systems.</li>
+
+            <li>Biological brains constitute a natural and powerful embodied intelligent navigation system, capable of continuously utilizing spatial perception information to output reliable navigation strategies. How the animal brain translates the environmental cognitive map into executable motor control commands is likely an issue that warrants the attention of future BIN research.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">CURRENT ADVANCES</h2>
+
+          <ul class="spaced-list">
+            <li><strong>CANN-based BIN Advances</strong>
+              <p>Discussion. Current CANN-based BIN research primarily focuses on replicating the representation patterns of navigation cells, shifting from simulating single-type cells to multi-cell collaborative functions. Some studies simulate richer navigation cells, while others model the multi-scale characteristics of key cells like GCs. Despite different approaches, the common goal is to achieve a more comprehensive replication of the brain's PI capability to integrate internal and external cues. Essentially, the key issue in CANN-based BIN research is how to effectively use spatial experiences from the CANN-modeled PI framework to construct a spatial relationship description consistent with the historical navigation process. When these spatial experiences are constrained into a topological form, they form the dead reckoning or SLAM capability in BIN. Compared with traditional state space models (e.g., Kalman filtering, factor graph optimization, etc.), this method converts the state estimation or optimization problem in multi-source information fusion into the encoding and decoding of spatial experiences.</p>
+
+              <div class="table-container">
+                <p class="table-caption"><strong>Table 1.</strong> Snapshot summary of BIN's advances (Part 1)</p>
+                <table class="table is-bordered is-striped is-fullwidth centered-table">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Categories</th>
+                      <th style="text-align: center;">Works</th>
+                      <th style="text-align: center;">Year</th>
+                      <th style="text-align: center;">Index Terms</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td style="text-align: center; vertical-align: middle;" rowspan="27">CANN-Based Advances</td><td style="text-align: center; vertical-align: middle;">[88]</td><td style="text-align: center; vertical-align: middle;">2004</td><td style="vertical-align: middle;">RatSLAM; Hippocampus; Pose cell; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[128]</td><td style="text-align: center; vertical-align: middle;">2005</td><td style="vertical-align: middle;">RatSLAM; Experience mapping; Pose cell; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[129]</td><td style="text-align: center; vertical-align: middle;">2008</td><td style="vertical-align: middle;">RatSLAM; Complex suburban; Dataset</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[130]</td><td style="text-align: center; vertical-align: middle;">2010</td><td style="vertical-align: middle;">RatSLAM; Persistent navigation and mapping</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[131]</td><td style="text-align: center; vertical-align: middle;">2010</td><td style="vertical-align: middle;">RatSLAM; Conjunctive GC; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[132]</td><td style="text-align: center; vertical-align: middle;">2013</td><td style="vertical-align: middle;">OpenRatSLAM; Open source; Datasets and tutorial</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[133]</td><td style="text-align: center; vertical-align: middle;">2013</td><td style="vertical-align: middle;">BatSLAM; Bionic sonar; Spatial orientation and mapping</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[136]</td><td style="text-align: center; vertical-align: middle;">2014</td><td style="vertical-align: middle;">RatSLAM variant; Multi-sensor calibration; Closed-loop fusion</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[134]</td><td style="text-align: center; vertical-align: middle;">2015</td><td style="vertical-align: middle;">BatSLAM; 3D sonar; Egomotion estimation</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[139]</td><td style="text-align: center; vertical-align: middle;">2015</td><td style="vertical-align: middle;">SLAM; GC; PC; PI; Cognitive map</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[142]</td><td style="text-align: center; vertical-align: middle;">2015</td><td style="vertical-align: middle;">DophinSLAM; 3D PC; Underwater SLAM</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[146]</td><td style="text-align: center; vertical-align: middle;">2017</td><td style="vertical-align: middle;">Long-range navigation; GC; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[154]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Place recognition; Multi-scale homogeneous mapping; Wi-Fi and Barometer PCs</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[91]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">NeuroSLAM; 3D GC; Multi-layered HDC; Multi-layered experience map</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[147]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Goal-directed navigation; GC; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[148]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Vector-based Navigation; Obstacle avoidance GC; PC; BC</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[140]</td><td style="text-align: center; vertical-align: middle;">2020</td><td style="vertical-align: middle;">NeuroBayesSLAM; HDC; GC; Bayesian attractor modeling</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[137]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">RatSLAM variant; Unsupervised learning; Latent state description</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[149]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">Dead Reckoning; Visual-inertial fusion; HDC; PC</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[144]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">NeuroSLAM variant; Bionic polarized sky-light sensor; Absolute heading</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[151]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Large-scale 3D PI; Multi-scale 3D GCs; Neural cliques encoding</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[153]</td><td style="text-align: center; vertical-align: middle;">2022023</td><td style="vertical-align: middle;">Positioning; Multimodal fusion; Multi-scale SCs, GCs, HDCs; DTMB</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[143]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">ORB-NeuroSLAM; ORB features; 3D GC; Multi-layered HDC</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[145]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">NeuroSLAM variant; Semantic information; Collaborative SLAM</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[150]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">Multimodal Navigation; HDC; 3D GC; 3D PC; Information fusion</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[152]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">Multi-modal Navigation; Multi-scale PCs and GCs; GNSS-IMU fusion</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[141]</td><td style="text-align: center; vertical-align: middle;">2025</td><td style="vertical-align: middle;">Hybrid-NeuroSLAM; Visual-inertial fusion; HDC; GC; Bayesian attractor</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li><strong>DRL-based BIN Advances</strong>
+              <p>Discussion. DRL excels in navigation tasks by merging DL's feature extraction with RL's decision-making, enabling end-to-end policy optimization. It learns adaptive, goal-oriented strategies with potential challenges including sample inefficiency and reward absence/sparseness. Despite hurdles, DRL's promise for autonomous navigation is significant, the usage of reward signals to guide exploration and exploitation behaviors is reminiscent of how animals navigate their environment, making DRL a plausible approach for intelligent navigation.</p>
+
+              <div class="table-container">
+                <p class="table-caption"><strong>Table 1.</strong> Snapshot summary of BIN's advances (Part 2)</p>
+                <table class="table is-bordered is-striped is-fullwidth centered-table">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Categories</th>
+                      <th style="text-align: center;">Works</th>
+                      <th style="text-align: center;">Year</th>
+                      <th style="text-align: center;">Index Terms</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td style="text-align: center; vertical-align: middle;" rowspan="9">DRL-Based Advances</td><td style="text-align: center; vertical-align: middle;">[155]</td><td style="text-align: center; vertical-align: middle;">2000</td><td style="vertical-align: middle;">Goal-directed navigation; PC; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[156]</td><td style="text-align: center; vertical-align: middle;">2000</td><td style="vertical-align: middle;">Dead reckoning; PC; Goal-independent spatial map</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[89]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Vector-based navigation; Grid LSTM; Policy LSTM; HDC; GC; PC; PI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[158]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Long-term navigation; GC; PC; Drift reset mechanism</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[160]</td><td style="text-align: center; vertical-align: middle;">2020</td><td style="vertical-align: middle;">Speace2Vec; GC; Multi-scale representation learning</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[161]</td><td style="text-align: center; vertical-align: middle;">2020</td><td style="vertical-align: middle;">Multiscale navigation; PCs; Spatial cognition</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[157]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Memory replay; GC; PC; Cognitive map construction</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[159]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Decision making; Experience-based pathfinding; GC; PC; Predictive map</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[162]</td><td style="text-align: center; vertical-align: middle;">2025</td><td style="vertical-align: middle;">Online path planning; Correlation-based cognitive map learning</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li><strong>SNN-based BIN Advances</strong>
+              <p>Discussion. Advances in SNNs underscore ongoing efforts into replicating the brain's sophisticated processing for navigation, memory, and recognition, aiming to boost AI's efficiency, adaptability, and robustness in complex and dynamic settings. Despite this, current research predominantly concentrates on simulating spatial patterns of navigation cells in the hippocampal-entorhinal system using brain-inspired models for early-stage navigational information processing. Advanced cognitive functions of the brain, such as spatial memory, spatiotemporal pattern processing capabilities, and attention mechanisms, are vital for advancing future BIN, where SNN solutions hold infinite possibilities for their excellent spatiotemporal information processing and computational efficiency. Furthermore, their low-power neuromorphic solutions offer significant benefits for deploying BIN systems.</p>
+
+              <div class="table-container">
+                <p class="table-caption"><strong>Table 1.</strong> Snapshot summary of BIN's advances (Part 3)</p>
+                <table class="table is-bordered is-striped is-fullwidth centered-table">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Categories</th>
+                      <th style="text-align: center;">Works</th>
+                      <th style="text-align: center;">Year</th>
+                      <th style="text-align: center;">Index Terms</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td style="text-align: center; vertical-align: middle;" rowspan="14">SNN-Based Advances</td><td style="text-align: center; vertical-align: middle;">[170]</td><td style="text-align: center; vertical-align: middle;">2014</td><td style="vertical-align: middle;">Goal-oriented navigation; PC; GC; HDC; Reward cell;</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[163]</td><td style="text-align: center; vertical-align: middle;">2016</td><td style="vertical-align: middle;">Path planning; PC; Probabilistic inference-based recurrent SNN</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[165]</td><td style="text-align: center; vertical-align: middle;">2017</td><td style="vertical-align: middle;">Path planning; PC; STDP; Obstacle evasion; Route determination</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[168]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Cognitive navigation; 3D CANN-based EC; Recurrent SNN-based episodic memory</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[175]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Decision-making; Working memory; Basal ganglia</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[173]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Goal-oriented navigation; SPAUN; Adaptive resonance theory; HDC; GC</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[180]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Visual place recognition; GC; MCN</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[181]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Visual place recognition; GC; MCN</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[164]</td><td style="text-align: center; vertical-align: middle;">2020</td><td style="vertical-align: middle;">Path planning; PC; STDP; 3D place vector field</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[169]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Goal-oriented navigation; PC; STDP; Dynamic self-organizing mechanism</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[166]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Head direction estimation; HDC; Landmark-free clues fusion</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[174]</td><td style="text-align: center; vertical-align: middle;">2023</td><td style="vertical-align: middle;">Decision-making; PC sequence learning; DG; CA3</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[167]</td><td style="text-align: center; vertical-align: middle;">2025</td><td style="vertical-align: middle;">Linear and angular velocities estimation; Astrocyte-assisted SNN; Event camera</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li><strong>BIN Systems Using Brain-inspired Hardware</strong>
+              <p>Discussion. The above section supplements and expands on the SNN-based BIN reviewed previously. These advances underscore the potential of neuromorphic hardware and SNNs in developing efficient, low-power, biologically inspired navigation systems. Despite training challenges, the paradigm of designing BIN algorithms with SNNs followed by low-power neuromorphic deployment is crucial. Additionally, leveraging ANN2SNN methods to reform conventional DL algorithms on neuromorphic hardware for ultra-low power usage is an invaluable strategy. For example, researchers in Large Language Models (LLMs) have explored SNN-based solutions to reduce power consumption, like SpikeGPT. If SNN-based LLMs can be effectively deployed on neuromorphic platforms, it would be a significant breakthrough.</p>
+
+              <div class="table-container">
+                <p class="table-caption"><strong>Table 1.</strong> Snapshot summary of BIN's advances (Part 4)</p>
+                <table class="table is-bordered is-striped is-fullwidth centered-table">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Categories</th>
+                      <th style="text-align: center;">Works</th>
+                      <th style="text-align: center;">Year</th>
+                      <th style="text-align: center;">Index Terms</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td style="text-align: center; vertical-align: middle;" rowspan="20">BIN Systems Using Brain-inspired Hardware</td><td style="text-align: center; vertical-align: middle;">[183]</td><td style="text-align: center; vertical-align: middle;">2007</td><td style="vertical-align: middle;">Goal-oriented navigation; Hippocampal PCs; Darwin XI</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[185]</td><td style="text-align: center; vertical-align: middle;">2017</td><td style="vertical-align: middle;">Self-driving tasks; TrueNorth</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[192]</td><td style="text-align: center; vertical-align: middle;">2017</td><td style="vertical-align: middle;">Path planning; BC; PC; FPGA</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[195]</td><td style="text-align: center; vertical-align: middle;">2017</td><td style="vertical-align: middle;">Neuromorphic control; "Brain on Board" project</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[90]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Pose estimation; Neuromorphic SLAM; ROLLS</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[186]</td><td style="text-align: center; vertical-align: middle;">2018</td><td style="vertical-align: middle;">Angular velocity estimation; DVS; ROLLS</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[190]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">SLAM; spike Bayesian inference; Loihi</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[191]</td><td style="text-align: center; vertical-align: middle;">2019</td><td style="vertical-align: middle;">Unmanned bicycle; Various self-driving tasks; Tianjic</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[187]</td><td style="text-align: center; vertical-align: middle;">2020</td><td style="vertical-align: middle;">Mapless navigation; Spiking actor-critic method; Loihi</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[188]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">Neuromorphic SLAM; HDC; PC; Mixed-signal oscillator array</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[193]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">Spatial position prediction; GC; PC; Multi-level network; FPGA</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[197]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">Robotic control; SNN-based simfilyed klinokinesis; Loihi</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[198]</td><td style="text-align: center; vertical-align: middle;">2021</td><td style="vertical-align: middle;">Optic flow-based landing; Loihi</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[189]</td><td style="text-align: center; vertical-align: middle;">2022</td><td style="vertical-align: middle;">Navigation; SNN; Optic flow; DVS</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[177]</td><td style="text-align: center; vertical-align: middle;">2023</td><td style="vertical-align: middle;">NeuroGPR; Place recognition; Hybrid multimodal perception; Tianjic</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[202]</td><td style="text-align: center; vertical-align: middle;">2023</td><td style="vertical-align: middle;">Grid navigation; Obstacle avoidance; PPC; SpiNNaker</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[194]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">Large-scale path planning; Hippocampal PCs; FPGA-friendly architecture</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[196]</td><td style="text-align: center; vertical-align: middle;">2024</td><td style="vertical-align: middle;">EV-Planner; SNNs and physics-based AI; Event and depth cameras</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[200]</td><td style="text-align: center; vertical-align: middle;">2025</td><td style="vertical-align: middle;">Attitude estimation and control; Imitation learning;</td></tr>
+                    <tr><td style="text-align: center; vertical-align: middle;">[201]</td><td style="text-align: center; vertical-align: middle;">2025</td><td style="vertical-align: middle;">Spike-based hippocampal memory; SpiNNaker</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+
+            <li><strong>Other Notable Advances Highlights</strong>
+              <ul>
+                <li>In addition to the aforementioned BIN research advances based on mainstream paradigms, there are also some niche yet eye-catching advances, as well as some special factions, that we have included in the Appendix C.</li>
+              </ul>
+            </li>
+
+            <li><strong>Periodic Discussion</strong>
+              <ul>
+                <li><strong>Research Status:</strong><br>Brain-inspired SLAM has been widely studied, but brain-inspired path planning, motion control, and advanced spatial cognition functions have not.</li>
+
+                <li><strong>Key Issues:</strong><br>
+                  (1. Single-Point Development) The unbalanced development of BIN technology has created technical barriers, hindering the formation of overall solutions.<br>
+                  (2. Limited Exploration of Spatial Cognition) It difficult for nowadays BIN with limited spatial cognition intelligence to prove unique new increments that are not possessed by other intelligent navigation technologies.
+                </li>
+
+                <li><strong>Other Issues:</strong><br>
+                  (1. Multi-Source Perception) BIN research is transitioning to the multi-source stage, but its integration with mature methods is insufficient.<br>
+                  (2. Multi-Paradigm Integration) The integration of different paradigms is rarely seen, yet it holds enormous potential.
+                </li>
+
+                <li><strong>Hardware-Software Integration Perspective:</strong><br>
+                  (1. Accuracy Gap) BIN technology lags behind traditional methods in terms of absolute accuracy.<br>
+                  (2. Hardware Advantages) BIN systems are compatible with both traditional and brain-inspired hardware. Brain-inspired hardware improves efficiency and reduces energy consumption.<br>
+                  (3. Priorities) It is necessary to improve the theoretical framework and enhance software capabilities. Otherwise, it will be difficult to fully leverage the advantages of hardware.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">IMPLEMENTATION CONDITIONS</h2>
+          <ul class="spaced-list">
+            <li><strong>Hardware Support:</strong>
+              <ul>
+                <li><strong>Heterogeneous Sensors:</strong> The BIN system has excellent compatibility with heterogeneous sensors. Traditional sensors, bionic sensors, and neuromorphic sensors can all enable it to benefit. Apart from neuromorphic cameras, the potential of neuromorphic sensors in non-visual navigation is worthy of exploration.</li>
+                <li><strong>Neuromorphic Processors:</strong> Neuromorphic processors, informed by neuroscience findings, offer significant improvements in energy efficiency, speed, and edge online learning, making them invaluable for BIN systems’ software-hardware integration.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="table-container">
+            <p class="table-caption"><strong>Table 2.</strong> Comparison of large-scale neuromorphic chips</p>
+            <table class="table is-bordered is-striped is-fullwidth centered-table">
+              <thead>
+                <tr>
+                  <th style="text-align: center;">Chips</th>
+                  <th style="text-align: center;">Topology</th>
+                  <th style="text-align: center;">Signals</th>
+                  <th style="text-align: center;">On-chip learning</th>
+                  <th style="text-align: center;">Process (nm)</th>
+                  <th style="text-align: center;">Neurons/Synapses</th>
+                  <th style="text-align: center;">Chip Area (mm²)</th>
+                  <th style="text-align: center;">Power (mW)</th>
+                  <th style="text-align: center;">Energy/SOP (pJ)</th>
+                  <th style="text-align: center;">Energy Efficiency (GSOPS/W)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Neurogrid</td><td>Tree</td><td>Mixed</td><td>No</td><td>180</td><td>64k/100M</td><td>168</td><td>2700</td><td>941</td><td>1.1</td></tr>
+                <tr><td>Braindrop</td><td>N. A.</td><td>Mixed</td><td>Yes</td><td>28</td><td>4k/16M</td><td>0.65</td><td>N. A.</td><td>0.38</td><td>2630</td></tr>
+                <tr><td>BrainScaleS</td><td>N. A.</td><td>Mixed</td><td>Yes</td><td>180</td><td>512/128k</td><td>50</td><td>N. A.</td><td>100</td><td>10</td></tr>
+                <tr><td>BrainScaleS2</td><td>N. A.</td><td>Mixed</td><td>Yes</td><td>65</td><td>512/131k</td><td>N. A.</td><td>~1000</td><td>N. A.</td><td>N. A.</td></tr>
+                <tr><td>SpiNNaker</td><td>Hexagon</td><td>Digital</td><td>Yes</td><td>130</td><td>18k/18M</td><td>102</td><td>1000</td><td>1130</td><td>0.064</td></tr>
+                <tr><td>SpiNNaker2</td><td>2D-mesh</td><td>Digital</td><td>Yes</td><td>22</td><td>Configuration</td><td>8.76</td><td>~1000</td><td>10</td><td>N. A.</td></tr>
+                <tr><td>Loihi</td><td>2D-mesh</td><td>Digital</td><td>Yes</td><td>14</td><td>128k/128M</td><td>60</td><td>N. A.</td><td>23.6</td><td>&lt;42.4</td></tr>
+                <tr><td>Loihi2</td><td>2D-mesh</td><td>Digital</td><td>Yes</td><td>7</td><td>1M/120M</td><td>31</td><td>~1000</td><td>N. A.</td><td>N. A.</td></tr>
+                <tr><td>TrueNorth</td><td>2D-mesh</td><td>Digital</td><td>No</td><td>28</td><td>1M/256M</td><td>430</td><td>65~145</td><td>26</td><td>46~400</td></tr>
+                <tr><td>Darwin</td><td>2D-mesh</td><td>Digital</td><td>No</td><td>180</td><td>2048/4.19M</td><td>25</td><td>0.84</td><td>N. A.</td><td>N. A.</td></tr>
+                <tr><td>Darwin2</td><td>2D-mesh</td><td>Digital</td><td>No</td><td>55</td><td>147k/10M</td><td>156.25</td><td>~100</td><td>N. A.</td><td>N. A.</td></tr>
+                <tr><td>Darwin3</td><td>2D-mesh</td><td>Digital</td><td>Yes</td><td>22</td><td>2.3M/-</td><td>358.53</td><td>N. A.</td><td>5.47</td><td>N. A.</td></tr>
+                <tr><td>Tianjic</td><td>2D-mesh</td><td>Digital</td><td>No</td><td>28</td><td>39k/9.75M</td><td>14.44</td><td>937</td><td>0.95</td><td>649</td></tr>
+                <tr><td>TianjicX</td><td>2D-mesh</td><td>Digital</td><td>Yes</td><td>28</td><td>160k/20M</td><td>81.83</td><td>~600</td><td>N. A.</td><td>N. A.</td></tr>
+                <tr><td>Dynap-SEL</td><td>2D-mesh</td><td>Mixed</td><td>Yes</td><td>28</td><td>1k/64k</td><td>43.79</td><td>N. A.</td><td>N. A.</td><td>N. A.</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul class="spaced-list">
+            <li><strong>Data and Simulator Resources:</strong>
+              <ul>
+                <li>BIN research should focus on extensive dataset resources, data from unstructured/challenging environments (e.g., underground, underwater), and rare neuromorphic navigation datasets.</li>
+                <li>Table 3 summarizes 8 high-impact and 5 special/scarce datasets, with the latter’s limitations unelaborated due to lacking comparable works and the rare nature.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="table-container">
+            <p class="table-caption"><strong>Table 3.</strong> Snapshot summary of high-impact or special scarce dataset resources</p>
+            <table class="table is-bordered is-striped is-fullwidth centered-table">
+              <thead>
+                <tr>
+                  <th style="text-align: center;">Dataset</th>
+                  <th style="text-align: center;">Snapshot Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>nuScenes 2020 [270]</strong></td><td>Content: 1,000 20-second driving scenes with multimodal sensory data.<br>Highlights: ① Supports algorithm generalization across locations, weather, etc.; ② 2Hz annotations with 23 object classes; ③ Additional annotations for object-level attributes.<br>Limitations: Lacks broader geographic diversity.</td></tr>
+                <tr><td><strong>CityScapes 2016 [271]</strong></td><td>Content: Vast intricate urban images.<br>Highlights: Pixel-level labels for 30 object classes.<br>Limitations: Lacks geographic diversity and diverse weather conditions.</td></tr>
+                <tr><td><strong>KITTI 2012 [268]</strong></td><td>Content: Multimodal sensory data under ideal weather.<br>Highlights: Supports multi-tasks like object detection, tracking, etc.<br>Limitations: Limited geographic and environmental scope.</td></tr>
+                <tr><td><strong>Waymo 2020 [272]</strong></td><td>Content: Large-scale multimodal data covering various conditions.<br>Highlights: ① High-quality annotations; ② Strong real-world applicability.<br>Limitations: Data quality degrades under specific adverse conditions.</td></tr>
+                <tr><td><strong>BDD100K 2020 [273]</strong></td><td>Content: 100K driving videos (40s each).<br>Highlights: Comprehensive evaluation platform.<br>Limitations: Occlusions and truncations in annotations.</td></tr>
+                <tr><td><strong>ApolloScape 2018 [274]</strong></td><td>Content: ~100K image frames + LiDAR data.<br>Highlights: ① Pixel-level semantic masks; ② Covers complex scenarios.<br>Limitations: Limited geographic/weather conditions.</td></tr>
+                <tr><td><strong>Lyft Level 5 2021 [275]</strong></td><td>Content: 1,000+ hours of multimodal data.<br>Highlights: Key benchmark for motion prediction.<br>Limitations: Lacks uncommon traffic situations.</td></tr>
+                <tr><td><strong>nuPlan 2021 [276]</strong></td><td>Content: 1,200 hours from four cities.<br>Highlights: First closed-loop ML-based planning benchmark.<br>Limitations: Limited geographic/weather conditions.</td></tr>
+                <tr><td><strong>BotanicGarden 2024 [277]</strong></td><td>Content: Multimodal data in 48K m² garden (17.1 km).<br>Highlights: ① Diverse natural environments; ② Precise hardware synchronization.</td></tr>
+                <tr><td><strong>MADMAX 2021 [278]</strong></td><td>Content: Visual-inertial data from Moroccan desert (9.2 km).<br>Highlights: ① Mars-analog terrains; ② Detailed ground truth.</td></tr>
+                <tr><td><strong>DDD17 2017 [279]</strong></td><td>Content: 12+ hours of DAVIS346 highway data.<br>Highlights: First annotated neuromorphic driving dataset.</td></tr>
+                <tr><td><strong>DDD20 2020 [280]</strong></td><td>Content: 51+ hours driving data (4,000 km).<br>Highlights: Longest event camera end-to-end dataset.</td></tr>
+                <tr><td><strong>A. Koval, et al. 2022 [281]</strong></td><td>Content: Subterranean multimodal data.<br>Highlights: ① Low illumination/dust environments; ② Synchronized sensors.</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul class="spaced-list">
+            <li>Simulators for evaluating navigation algorithms are noteworthy. They offer a public competitive platform for BIN research (despite an immature BIN ecosystem), but lack support for neuromorphic perception simulations, a limitation needing further exploration.</li>
+            <li>Beyond Table 4, the <a href="https://deepdrive.io/" target="_blank">DeepDrive</a> project merits mention for its high-definition scene simulation, flexible environment interaction, efficient built-in RL engine, and mature DL framework integration.</li>
+          </ul>
+
+          <div class="table-container">
+            <p class="table-caption"><strong>Table 4.</strong> Summary of different simulators or environments</p>
+            <table class="table is-bordered is-striped is-fullwidth centered-table">
+              <thead>
+                <tr>
+                  <th style="text-align: center;">Simulators</th>
+                  <th style="text-align: center;">Support Scene</th>
+                  <th style="text-align: center;">Highlights</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>AirSim [282]</strong></td><td>Urban scenes with variations</td><td>① Realistic depth/semantic maps; ② Controller support; ③ Large user base</td></tr>
+                <tr><td><strong>CARLA [283]</strong></td><td>Urban environments with traffic details</td><td>① Realistic scenes; ② Driving policy training</td></tr>
+                <tr><td><strong>LGSVL [284]</strong></td><td>Synthetic environments (traffic/weather)</td><td>① Integration with Autoware/Apollo; ② Diverse semantic info</td></tr>
+                <tr><td><strong>DeepMind Lab [285]</strong></td><td>Maze environments</td><td>① Highly customizable; ② First-person exploration</td></tr>
+                <tr><td><strong>AI2-THOR [286]</strong></td><td>Hand-modeled indoor scenes</td><td>① Realistic scenes; ② Multiple interaction actions</td></tr>
+                <tr><td><strong>RoboTHOR [287]</strong></td><td>Apartment scenes (synthetic/real)</td><td>① Sim2real validation; ② Seamless environment switching</td></tr>
+                <tr><td><strong>MINOS [288]</strong></td><td>SUNCG/Matterport3D datasets</td><td>① Goal-directed navigation; ② Multimodal sensor info</td></tr>
+                <tr><td><strong>House3D [291]</strong></td><td>SUNCG indoor scenes</td><td>Depth maps, 3D annotations, and 2D maps</td></tr>
+                <tr><td><strong>Habitat [292]</strong></td><td>Matterport3D/Gibson datasets</td><td>Realistic scenes with diverse semantic info</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul class="spaced-list">
+            <li><strong>NOTABLE BRAIN-INSPIRED ENGINES AND TOOLS</strong><br>Beyond hardware, open-source toolchains, frameworks and engines may also be beneficial for BIN research. (See Appendix D)</li>
+          </ul>
+
+          <h3 class="title is-4">Periodic Discussion</h3>
+          <ul class="spaced-list">
+            <li><strong>Hardware Integration Limitations</strong><br>Bionic sensors and neuromorphic hardware can enhance heterogeneous perception and low-power capabilities. Yet, merely integrating such hardware fails to capture the essential essence of BIN research.</li>
+            <li><strong>Insufficient Data and Simulator Support</strong><br>Existing datasets cannot fully support BIN systems with diverse sensors. Public data from challenging environments is scarce, limiting BIN’s potential exploration. Current simulators lack neuromorphic perception support and configurable complex scenarios.</li>
+            <li><strong>Key Challenges and Ecosystem Construction</strong><br>The sim2real conversion requires urgent resolution. Datasets, development environments, and hardware support are integral for building a comprehensive BIN ecosystem.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">FRAMEWORK OF BIN SYSTEMS</h2>
+          <ul class="spaced-list">
+            <li>The review thus far highlights that at the initial stage of every field with strong interdisciplinary characteristics, researchers will face a challenge: it is difficult to build a complete and comprehensive system-level cognitive architecture. This point also applies to BIN.</li>
+
+            <li>Currently, most researchers in the field of BIN are crossing the river by feeling the stones, and no research can connect all the key points in BIN to form a complete chain of BIN's system-level framework.</li>
+
+            <li>We propose a framework for developing BIN systems to fill the gap, based on the analysis of major navigational functions of animal's brain.</li>
+          </ul>
+
+          <img src="./images/F5.svg" alt="Major navigational functions of the biological brain" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+          <p class="image-caption">Fig. 5. Major navigational functions of the biological brain.</p>
+
+          <ul class="spaced-list">
+            <li>This framework is open to discussion and continuous refinement. It consists three levels.</li>
+          </ul>
+
+          <img src="./images/F6.svg" alt="Framework for developing a BIN system" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+          <p class="image-caption">Fig. 6. Framework for developing a BIN system. Where, OC represent Object Cells.</p>
+
+          <ol class="spaced-list" style="list-style-type: decimal; padding-left: 2rem;">
+            <li><strong>Research on neural mechanisms for BIN:</strong> This includes the study of neural circuit structures and the characteristics and collaborative interactions of various navigation cells, guiding or inspiring neural computational modeling and the development of BIN's functions and software.</li>
+
+            <li><strong>Development of BIN algorithms and functions:</strong> Relying on brain-inspired computational models, this level aims at developing brain-inspired information processing capabilities, such as filtering, encoding, fusion, interpretation, and brain-inspired functional algorithms, like path integration, reasoning, decision-making, memory, path planning, etc., serving various PNT applications.</li>
+
+            <li><strong>Integration of BIN system's software and hardware:</strong> Integrating the machine perception system and deploying BIN software and algorithms on unmanned systems based on neuromorphic chips/processors, to achieve a complete solution for the BIN system.</li>
+          </ol>
+
+          <div class="notification is-info is-light">
+            <strong>NOTE:</strong> This framework is proposed based on the current BIN progress. In specific research tasks, it can be selectively referred to and adopted. For instance, researchers dedicated to the development of pure BIN algorithms only need to draw on the relevant neural mechanisms and design the functional algorithms with suitable brain-inspired computational models and datasets, without delving into the hardware integration in its third level.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">FUTURE TRENDS</h2>
+          <p>This section will delve into future trends to offer strategic perspectives on BIN's potential growth and innovation.</p>
+
+          <ul class="spaced-list">
+            <li><strong>Clarifying the Conceptual Connotation of BIN</strong><br>
+            Further research is needed to precisely define the scope and theoretical foundations of Brain-inspired Navigation, establishing clear boundaries and core principles for this interdisciplinary field.</li>
+
+            <li><strong>Constructing the Ecosystem and Evaluation System of BIN</strong><br>
+            Developing comprehensive frameworks for benchmarking, validation, and performance assessment of BIN systems, including standardized testing protocols and evaluation metrics.</li>
+
+            <li><strong>Developing Advanced BIN Systems with Integrated Software and Hardware</strong><br>
+            Creating co-designed systems that optimize both algorithmic efficiency and hardware implementation, particularly leveraging neuromorphic computing architectures.</li>
+
+            <li><strong>Developing BIN from Individuals to Swarms Intelligence</strong><br>
+            Extending brain-inspired principles from single-agent navigation to collective behaviors in multi-agent systems, enabling emergent intelligence in swarm applications.</li>
+
+            <li><strong>Exploring the Integration of BIN and Other PNT Technologies</strong><br>
+            Investigating synergistic combinations with traditional Positioning, Navigation, and Timing systems to enhance robustness and reliability in complex environments.</li>
+
+            <li><strong>Exploring the Cognitive Neuroscience and Computational Neuroscience In-depth</strong><br>
+            Deepening the understanding of neural mechanisms underlying spatial navigation to inspire more biologically accurate computational models.</li>
+
+            <li><strong>Exploring Novel Brain-Inspired AI Computing Paradigms</strong><br>
+            Developing next-generation artificial intelligence approaches that more closely mimic brain-like processing for efficient and adaptive navigation.</li>
+
+            <li><strong>Exploring the Application Potential of BIN</strong><br>
+            Identifying and validating BIN technologies in diverse real-world scenarios, from autonomous vehicles to robotic exploration and assistive technologies.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content justified-text">
+          <h2 class="title is-3">ACKNOWLEDGMENTS</h2>
+          <p>This work is mainly sponsored by the Natural Science Foundation of Jiangsu Province under Grant No. BK20243064 and a national research grant awarded to Professor Xiaolin Meng as Chair Professor of Intelligent Mobility at Southeast University (SEU), China. Xu He receives support from the Postgraduate Research & Practice Innovation Program of Jiangsu Province under Grant No. SJCX24_0067 and SEU Innovation Capability Enhancement Plan for Doctoral Students under Grant No. CXJH_SEU 24204.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--    -->
+<!--&lt;!&ndash; Image carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--       <div class="item">-->
+<!--        &lt;!&ndash; TODO: Replace with your research result images &ndash;&gt;-->
+<!--        <img src="./images/F1.svg" alt="First research result visualization" loading="lazy"/>-->
+<!--        &lt;!&ndash; TODO: Replace with description of this result &ndash;&gt;-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Framework for developing a BIN system.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="./images/F2.svg" alt="Second research result visualization" loading="lazy"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--          Second image description.-->
+<!--        </h2>-->
+<!--      </div>-->
+<!--      <div class="item">-->
+<!--        &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--        <img src="./images/F3.svg" alt="Third research result visualization" loading="lazy"/>-->
+<!--        <h2 class="subtitle has-text-centered">-->
+<!--         Third image description.-->
+<!--       </h2>-->
+<!--     </div>-->
+<!--     <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="./images/F4.svg" alt="Fourth research result visualization" loading="lazy"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--    <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="./images/F5.svg" alt="Fourth research result visualization" loading="lazy"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--    <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="./images/F6.svg" alt="Fourth research result visualization" loading="lazy"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--    <div class="item">-->
+<!--      &lt;!&ndash; Your image here &ndash;&gt;-->
+<!--      <img src="./images/FS1.svg" alt="Fourth research result visualization" loading="lazy"/>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Fourth image description.-->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
 <!-- End image carousel -->
 
 
@@ -411,5 +996,5 @@
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+</html>

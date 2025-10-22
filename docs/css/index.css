@@ -749,5 +749,84 @@ a:focus {
   }
 }
 
+/* 表格样式增强 */
+.table-container {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.centered-table th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.centered-table td {
+  vertical-align: middle !important;
+}
+
+.centered-table td:first-child {
+  text-align: center !important;
+}
+
+.table {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 0.75rem;
+}
+
+.table-caption {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* 文本两端对齐 */
+.justified-text {
+  text-align: justify;
+}
+
+.justified-text ul li {
+  text-align: justify;
+}
+
+/* 响应式表格 */
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: 0.85em;
+  }
+
+  .table td, .table th {
+    padding: 0.5rem;
+  }
+}
+
+/* 行间距调整 */
+.spaced-list li {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.center-image {
+  display: block;
+  margin: 1.5rem auto;
+}
+
 
 
